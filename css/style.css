@@ -149,8 +149,8 @@ blockquote {
 
 .lead.text-center  {
   font-family: "Work Sans", sans-serif;
-  font-weight: 300;
-  font-size: 24px;
+  font-weight: 400;
+  font-size: 22px;
 }
 
 /* Layout
@@ -167,31 +167,21 @@ blockquote {
   transition: all 0.2s ease-in-out;
 }
 .banner {
-  width: 100%;
-  height: 100%;
-  min-height: 100%;
-  position: relative;
+  width: 100%;  
   color: #fff;
-}
-.banner-image {
-  vertical-align: middle;
-  min-height: 100%;
-  width: 100%;
+  background-image: linear-gradient(rgba(215, 206, 29, 0.244), rgba(54, 8, 56, 0.779)), url('../images/bg gradient.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: 50px;
+  padding: 150px 0px;
 }
 
-.banner:after {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  content: "";
-}
+
 .banner-caption {
-  position: absolute;
-  top: 40%;
   width: 100%;
-  z-index: 2;
+  padding: 0 50px;
+  margin: auto;
+  /* overflow: hidden; */
 }
 .subfooter {
   background-color: #fafafa;
@@ -223,6 +213,7 @@ blockquote {
   background-color: #C4DF91;
   color: #ffffff;
   border-radius: 80px;
+  margin-top: 10px;
 
 
 }
